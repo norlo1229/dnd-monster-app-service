@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Api", "Template.Api\Template.Api.csproj", "{827CB211-E1A0-432F-B3C3-E3C89405DB0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndMonsterApp.Api", "DndMonsterApp.Api\DndMonsterApp.Api.csproj", "{46D7564A-EFDF-4130-A3A7-E507E641CF45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.DataAccess.Sql", "Template.DataAccess.Sql\Template.DataAccess.Sql.csproj", "{B4277815-233E-4D54-8606-8528EBB758E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndMonsterApp.DataAccess.Sql", "DndMonsterApp.DataAccess.Sql\DndMonsterApp.DataAccess.Sql.csproj", "{CD3E8E0D-3F5E-4A24-B563-AD0A11CB846D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Models", "Template.Models\Template.Models.csproj", "{BCB2EC34-16B7-4DA9-B632-27F7896A2D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndMonsterApp.Models", "DndMonsterApp.Models\DndMonsterApp.Models.csproj", "{4EF031B8-11C9-46F2-9E0F-694D76209A2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{827CB211-E1A0-432F-B3C3-E3C89405DB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{827CB211-E1A0-432F-B3C3-E3C89405DB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{827CB211-E1A0-432F-B3C3-E3C89405DB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{827CB211-E1A0-432F-B3C3-E3C89405DB0C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4277815-233E-4D54-8606-8528EBB758E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4277815-233E-4D54-8606-8528EBB758E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4277815-233E-4D54-8606-8528EBB758E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4277815-233E-4D54-8606-8528EBB758E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCB2EC34-16B7-4DA9-B632-27F7896A2D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCB2EC34-16B7-4DA9-B632-27F7896A2D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCB2EC34-16B7-4DA9-B632-27F7896A2D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCB2EC34-16B7-4DA9-B632-27F7896A2D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D7564A-EFDF-4130-A3A7-E507E641CF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D7564A-EFDF-4130-A3A7-E507E641CF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D7564A-EFDF-4130-A3A7-E507E641CF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D7564A-EFDF-4130-A3A7-E507E641CF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3E8E0D-3F5E-4A24-B563-AD0A11CB846D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3E8E0D-3F5E-4A24-B563-AD0A11CB846D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3E8E0D-3F5E-4A24-B563-AD0A11CB846D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3E8E0D-3F5E-4A24-B563-AD0A11CB846D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF031B8-11C9-46F2-9E0F-694D76209A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF031B8-11C9-46F2-9E0F-694D76209A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF031B8-11C9-46F2-9E0F-694D76209A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF031B8-11C9-46F2-9E0F-694D76209A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
